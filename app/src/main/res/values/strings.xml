@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">AppCommerce</string>
+
+    <!--tela principal-->
+    <string name="title_categorias_populares">Categorias Populares</string>
+    <string name="title_produtos_recentes">Produtos Recentes</string>
+    <string name="title_activity_product_detail">ProductDetailActivity</string>
+
+    <!--tela product detail-->
+    <string name="button_comprar">Comprar</string>
+    <string name="productDetail_description">Descrição</string>
+    <string name="product_detail_cor">Cor</string>
+    <string name="product_detail_tamanho">Tamanho</string>
+
+    <!--Menu Drawer-->
+    <string name="menu_home">Home</string>
+    <string name="menu_account">Minha Conta</string>
+    <string name="menu_category">Categorias</string>
+    <string name="menu_orders">Minhas Compras</string>
+    <string name="menu_cart">Carrinho</string>
+    <string name="menu_logout">Sair</string>
+
+    <string name="toggle_open">open</string>
+    <string name="toggle_close">close</string>
+
+    <!--Cadastro do Usuário-->
+    <string name="register_input_name">Nome</string>
+    <string name="register_input_email">Email</string>
+    <string name="register_input_password">Senha</string>
+    <string name="btn_user_register">cadastrar</string>
+    <string name="user_register_titulo">Cadastro de Usuário</string>
+
+    <!--Login do Usuário-->
+    <string name="user_forgot_password">Esqueceu sua senha?</string>
+    <string name="user_login_toEnter">entrar</string>
+    <string name="user_login_dont_register">Não Tem cadastro?</string>
+    <string name="user_login_button_register">Cadastre-se aqui</string>
+    <string name="user_login_title">Login</string>
+
+    <!--Dados do Usuário-->
+    <string name="user_profile_title">Dados do Usuário</string>
+    <string name="user_profile_surname">Sobrenome</string>
+    <string name="user_profile_adress">Endereço</string>
+    <string name="user_profile_street">Rua/Avenida</string>
+    <string name="user_profile_street_number">Número</string>
+    <string name="user_profile_adress_complement">Complemento</string>
+    <string name="user_profile_city">Cidade</string>
+    <string name="user_profile_cep">CEP</string>
+    <string name="button_user_profile_update">atualizar</string>
+    <string-array name="states">
+        <item>Acre (AC)</item>
+        <item>Alagoas (AL)</item>
+        <item>Amapá (AP)</item>
+        <item>Amazonas (AM)</item>
+        <item>Bahia (BA)</item>
+        <item>Ceará (CE)</item>
+        <item>Distrito Federal (DF)</item>
+        <item>Espírito Santo (ES)</item>
+        <item>Goiás (GO)</item>
+        <item>Maranhão (MA)</item>
+        <item>Mato Grosso (MT)</item>
+        <item>Mato Grosso do Sul (MS)</item>
+        <item>Minas Gerais (MG)</item>
+        <item>Pará (PA)</item>
+        <item>Paraíba (PB)</item>
+        <item>Paraná (PR)</item>
+        <item>Pernambuco (PE)</item>
+        <item>Piauí (PI)</item>
+        <item>Rio de Janeiro (RJ)</item>
+        <item>Rio Grande do Norte (RN)</item>
+        <item>Rio Grande do Sul (RS)</item>
+        <item>Rondônia (RO)</item>
+        <item>Roraima (RR)</item>
+        <item>Santa Catarina (SC)</item>
+        <item>São Paulo (SP)</item>
+        <item>Sergipe (SE)</item>
+        <item>Tocantins (TO)</item>
+    </string-array>
+</resources>
