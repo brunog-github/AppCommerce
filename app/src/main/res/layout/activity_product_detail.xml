@@ -37,9 +37,9 @@
                 android:adjustViewBounds="true"/>
 
             <TextView
+                android:id="@+id/tv_product_price"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="R$ 100,00"
                 android:textAppearance="@android:style/TextAppearance.Medium"
                 android:layout_marginLeft="8dp"
                 android:layout_marginTop="8dp"/>
@@ -49,36 +49,18 @@
                 android:layout_height="wrap_content"
                 android:text="@string/product_detail_cor"
                 android:textAppearance="@android:style/TextAppearance.Medium"
-                android:layout_marginLeft="8dp"/>
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"/>
 
             <com.google.android.material.chip.ChipGroup
+                android:id="@+id/chip_group_color"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"
                 android:layout_marginTop="8dp"
                 app:singleSelection="true">
 
-                <com.google.android.material.chip.Chip
-                    android:id="@+id/chip_group_color"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    style="@style/Widget.MaterialComponents.Chip.Choice"
-                    android:text="Branco"
-                    android:checkable="true"/>
 
-                <com.google.android.material.chip.Chip
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    style="@style/Widget.MaterialComponents.Chip.Choice"
-                    android:text="Preto"
-                    android:checkable="true"/>
-
-                <com.google.android.material.chip.Chip
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    style="@style/Widget.MaterialComponents.Chip.Choice"
-                    android:text="Azul"
-                    android:checkable="true"/>
             </com.google.android.material.chip.ChipGroup>
 
             <TextView
@@ -89,33 +71,14 @@
                 android:layout_marginLeft="8dp"/>
 
             <com.google.android.material.chip.ChipGroup
+                android:id="@+id/chip_group_size"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"
                 android:layout_marginTop="8dp"
                 app:singleSelection="true">
 
-                <com.google.android.material.chip.Chip
-                    android:id="@+id/chip_group_tamanho"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    style="@style/Widget.MaterialComponents.Chip.Choice"
-                    android:text="P"
-                    android:checkable="true"/>
 
-                <com.google.android.material.chip.Chip
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    style="@style/Widget.MaterialComponents.Chip.Choice"
-                    android:text="M"
-                    android:checkable="true"/>
-
-                <com.google.android.material.chip.Chip
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    style="@style/Widget.MaterialComponents.Chip.Choice"
-                    android:text="G"
-                    android:checkable="true"/>
             </com.google.android.material.chip.ChipGroup>
 
             <Button
@@ -133,9 +96,9 @@
                 android:layout_marginLeft="8dp"/>
 
             <TextView
+                android:id="@+id/tv_product_description"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="daidhwadjakjskn sndkasdwak skadnakw skdn askndwak s"
                 android:textAppearance="@android:style/TextAppearance.Small"
                 android:layout_marginLeft="8dp"
                 android:layout_marginTop="8dp"

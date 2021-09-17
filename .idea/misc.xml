@@ -3,13 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/layout-sw600dp/activity_product_category.xml" value="0.35" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/activity_product.xml" value="0.35" />
+        <entry key="app/src/main/res/layout/activity_product_category.xml" value="0.35" />
         <entry key="app/src/main/res/layout/activity_product_detail.xml" value="0.320703125" />
         <entry key="app/src/main/res/layout/activity_splash.xml" value="0.320703125" />
         <entry key="app/src/main/res/layout/activity_user_login.xml" value="0.320703125" />
         <entry key="app/src/main/res/layout/activity_user_profile.xml" value="0.316988416988417" />
         <entry key="app/src/main/res/layout/activity_user_register.xml" value="0.320703125" />
         <entry key="app/src/main/res/layout/content_product_detail.xml" value="0.320703125" />
+        <entry key="app/src/main/res/layout/fragment_product.xml" value="0.35" />
+        <entry key="app/src/main/res/layout/fragment_product_category.xml" value="0.35" />
+        <entry key="app/src/main/res/layout/item_product.xml" value="0.35" />
+        <entry key="app/src/main/res/layout/item_product_category.xml" value="0.320703125" />
         <entry key="app/src/main/res/layout/menu_header_layout.xml" value="0.320703125" />
         <entry key="app/src/main/res/layout/menu_navigation_view.xml" value="0.320703125" />
         <entry key="app/src/main/res/layout/menu_toolbar_layout.xml" value="0.320703125" />
