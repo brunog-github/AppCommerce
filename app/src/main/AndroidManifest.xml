@@ -29,6 +29,9 @@
             android:exported="true"
             android:label="@string/title_activity_product_detail" />
         <activity
+            android:name=".SettingsActivity"
+            android:exported="true" />
+        <activity
             android:name=".SplashActivity"
             android:exported="true"
             android:theme="@style/Theme.AppCommerce.NoActionBar">

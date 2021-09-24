@@ -128,7 +128,11 @@ class MainActivity : AppCompatActivity(),
             }
             R.id.nav_orders -> Toast.makeText(this, "pedidos", Toast.LENGTH_LONG).show()
             R.id.nav_cart -> Toast.makeText(this, "carrinho", Toast.LENGTH_LONG).show()
-            R.id.nav_logout-> Toast.makeText(this, "sair", Toast.LENGTH_LONG).show()
+            R.id.nav_settings -> {
+                val intent = Intent(this, SettingsActivity::class.java)
+                startActivity(intent)
+            }
+            R.id.nav_logout -> Toast.makeText(this, "sair", Toast.LENGTH_LONG).show()
         }
 
         drawerLayout.closeDrawer(GravityCompat.START)
